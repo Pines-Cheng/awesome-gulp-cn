@@ -61,7 +61,7 @@
 * [StackOverflow](http://stackoverflow.com/questions/tagged/gulp)
 * [Twitter](https://twitter.com/gulpjs)
 
-### 入门
+### 入门教程
 #### Gulp入门
 * [使用Gulp构建前端工程](https://www.smashingmagazine.com/2014/06/building-with-gulp/)
 * [通过Gulp.js轻松自动化构建你的前端工程](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js)
@@ -74,3 +74,62 @@
 * [为什么你不自己写一个Gulp插件？](http://blog.overzealous.com/post/74121048393/why-you-shouldnt-create-a-gulp-plugin-or-how-to)
 * [6个最好的从根本改善你的开发经验的Gulp实战练习](http://blog.rangle.io/angular-gulp-bestpractices/)
 * [Gulp初学者教程](https://css-tricks.com/gulp-for-beginners/)
+
+#### Gulp 4 入门
+* [迁移到Gulp 4的例子](https://blog.wearewizards.io/migrating-to-gulp-4-by-example)
+* [Gulp 4: 新的task执行系统 - gulp.parallel 和 gulp.series](http://fettblog.eu/gulp-4-parallel-and-series/)
+
+#### Gulp with Browserify
+* [Gulp + Browserify, the Gulp-y Way](https://medium.com/@sogko/gulp-browserify-the-gulp-y-way-bb359b3f9623)
+* [Gulp + Browserify](https://viget.com/extend/gulp-browserify-starter-faq)
+* [快速构建Browserify和Watchify](https://github.com/gulpjs/gulp/blob/master/docs/recipes/fast-browserify-builds-with-watchify.md)
+
+#### Gulp with Angular
+* [Angular工程需要什么 - Gulp能提供什么](http://blog.jhades.org/what-every-angular-project-likely-needs-and-a-gulp-build-to-provide-it/)
+
+#### Gulp with Angular and Browserify
+* [使用 Gulp, Node and Browserify构建先进的 AngularJS工程结构](http://omarfouad.com/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/)
+
+#### Gulp with React and Browserify
+* [Browserify、Gulp 和 React](https://hacks.mozilla.org/2014/08/browserify-and-gulp-with-react/)
+* [Taking React to the Next Level: Mixins, Gulp, and Browserify](http://pomax.github.io/1420592591221/taking-react-to-the-next-level-mixins-gulp-and-browserify)
+
+#### Gulp with Ember
+* [使用Gulp.js改进你的Ember.js工作流](http://www.sitepoint.com/improving-ember-js-workflow-using-gulp-js/)
+
+### 其他资源
+* [Gulp 备忘录](https://github.com/osscafe/gulp-cheatsheet)
+* [Playground for Gulp Recipes](https://github.com/johnpapa/gulp-patterns)
+
+## 插件
+### 编译
+* [gulp-sass](https://github.com/dlmanning/gulp-sass) - Sass → CSS 通过 [libsass](https://github.com/sass/libsass).
+* [gulp-ruby-sass](https://github.com/sindresorhus/gulp-ruby-sass) - Sass → CSS 通过 Ruby Sass.
+* [gulp-compass](https://github.com/appleboy/gulp-compass) - Sass → CSS 通过 Ruby Sass & Compass.
+* [gulp-less](https://github.com/plus3network/gulp-less) - [Less](https://github.com/less/less.js) → CSS.
+* [gulp-stylus](https://github.com/stevelacy/gulp-stylus) - [Stylus](https://github.com/stylus/stylus) → CSS.
+* [gulp-postcss](https://github.com/postcss/gulp-postcss) - Pipe CSS 通过 [PostCSS](https://github.com/postcss/postcss) processors with a single parse.
+* [gulp-coffee](https://github.com/contra/gulp-coffee) - [Coffeescript](https://github.com/jashkenas/coffeescript) → JavaScript.
+* [gulp-typescript](https://github.com/ivogabe/gulp-typescript) - [TypeScript](https://github.com/Microsoft/TypeScript) → JavaScript.
+* [gulp-react](https://github.com/sindresorhus/gulp-react) - Facebook [React](https://github.com/facebook/react) JSX templates → JavaScript.
+* [webpack-stream](https://github.com/shama/webpack-stream) - Run [webpack](https://github.com/webpack/webpack) as a stream to conveniently integrate with gulp.
+
+* [gulp-babel](https://github.com/babel/gulp-babel) - ES6 → ES5 with [babel](https://github.com/babel/babel).
+* [gulp-traceur](https://github.com/sindresorhus/gulp-traceur) - ES6 → ES5 using [Traceur](https://github.com/google/traceur-compiler).
+* [gulp-regenerator](https://github.com/sindresorhus/gulp-regenerator) - ES6 → ES5 with [Regenerator](https://github.com/facebook/regenerator).
+* [gulp-es6-transpiler](https://github.com/sindresorhus/gulp-es6-transpiler) - [Deprecated] ES6 → ES5 with [es6-transpiler](https://github.com/termi/es6-transpiler).
+* [gulp-myth](https://github.com/sindresorhus/gulp-myth) - [Myth](https://github.com/segmentio/myth) - a polyfill for future versions of the CSS spec.
+* [gulp-cssnext](https://github.com/MoOx/gulp-cssnext) - [Deprecated] Use tomorrow's CSS syntax, today, using [cssnext](https://github.com/MoOx/postcss-cssnext).
+
+### 合并
+* [gulp-concat](https://github.com/contra/gulp-concat) - 合并文件.
+
+### 压缩
+* [gulp-clean-css](https://github.com/scniro/gulp-clean-css) - Minify CSS with [clean-css](https://github.com/jakubpawlowicz/clean-css).
+* [gulp-csso](https://github.com/ben-eb/gulp-csso) - Minify CSS with [CSSO](https://github.com/css/csso).
+* [gulp-uglify](https://github.com/terinjokes/gulp-uglify) - Minify JavaScript with [UglifyJS2](https://github.com/mishoo/UglifyJS2).
+* [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin) - Minify HTML with [html-minifier](https://github.com/kangax/html-minifier).
+* [gulp-minify-html](https://github.com/murphydanger/gulp-minify-html) - Minify HTML with
+ [Minimize](https://github.com/Swaagie/minimize).
+* [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images with [imagemin](https://github.com/imagemin/imagemin).
+* [gulp-svgmin](https://github.com/ben-eb/gulp-svgmin) - Minify SVG files with gulp.
