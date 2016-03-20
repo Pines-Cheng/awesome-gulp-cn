@@ -41,3 +41,11 @@
   - [参考工程](#参考工程)
   - [Yeoman生成器](#yeoman生成器)
 - [其他](#其他)
+
+## 资源
+### 通用资源
+* [官网](http://gulpjs.com/)
+* [Github库](https://github.com/gulpjs/gulp)
+* [插件注册](http://gulpjs.com/plugins/)
+* [NPM模块](https://www.npmjs.com/package/gulp)
+* [插件黑名单](https://github.com/gulpjs/plugins/blob/master/src/blackList.json)
