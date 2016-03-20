@@ -99,37 +99,51 @@
 
 ### 其他资源
 * [Gulp 备忘录](https://github.com/osscafe/gulp-cheatsheet)
-* [Playground for Gulp Recipes](https://github.com/johnpapa/gulp-patterns)
+* [Gulp清单](https://github.com/johnpapa/gulp-patterns)
 
 ## 插件
 ### 编译
-* [gulp-sass](https://github.com/dlmanning/gulp-sass) - Sass → CSS 通过 [libsass](https://github.com/sass/libsass).
-* [gulp-ruby-sass](https://github.com/sindresorhus/gulp-ruby-sass) - Sass → CSS 通过 Ruby Sass.
-* [gulp-compass](https://github.com/appleboy/gulp-compass) - Sass → CSS 通过 Ruby Sass & Compass.
-* [gulp-less](https://github.com/plus3network/gulp-less) - [Less](https://github.com/less/less.js) → CSS.
-* [gulp-stylus](https://github.com/stevelacy/gulp-stylus) - [Stylus](https://github.com/stylus/stylus) → CSS.
+* [gulp-sass](https://github.com/dlmanning/gulp-sass) - 通过 [libsass](https://github.com/sass/libsass)将Sass编译成 CSS 
+* [gulp-ruby-sass](https://github.com/sindresorhus/gulp-ruby-sass) - 通过 Ruby Sass将Sass编译成CSS 
+* [gulp-compass](https://github.com/appleboy/gulp-compass) - 通过 Ruby Sass和CompassSass编译成CSS 
+* [gulp-less](https://github.com/plus3network/gulp-less) - [Less](https://github.com/less/less.js)编译成 CSS.
+* [gulp-stylus](https://github.com/stevelacy/gulp-stylus) - [Stylus](https://github.com/stylus/stylus) 编译成 CSS.
 * [gulp-postcss](https://github.com/postcss/gulp-postcss) - Pipe CSS 通过 [PostCSS](https://github.com/postcss/postcss) processors with a single parse.
-* [gulp-coffee](https://github.com/contra/gulp-coffee) - [Coffeescript](https://github.com/jashkenas/coffeescript) → JavaScript.
-* [gulp-typescript](https://github.com/ivogabe/gulp-typescript) - [TypeScript](https://github.com/Microsoft/TypeScript) → JavaScript.
-* [gulp-react](https://github.com/sindresorhus/gulp-react) - Facebook [React](https://github.com/facebook/react) JSX templates → JavaScript.
-* [webpack-stream](https://github.com/shama/webpack-stream) - Run [webpack](https://github.com/webpack/webpack) as a stream to conveniently integrate with gulp.
+* [gulp-coffee](https://github.com/contra/gulp-coffee) - [Coffeescript](https://github.com/jashkenas/coffeescript) 编译成 JavaScript.
+* [gulp-typescript](https://github.com/ivogabe/gulp-typescript) - [TypeScript](https://github.com/Microsoft/TypeScript)编译成JavaScript.
+* [gulp-react](https://github.com/sindresorhus/gulp-react) - Facebook [React](https://github.com/facebook/react) JSX 模板编译成JavaScript.
+* [webpack-stream](https://github.com/shama/webpack-stream) - 将[webpack](https://github.com/webpack/webpack)集成在Gulp中使用。
 
-* [gulp-babel](https://github.com/babel/gulp-babel) - ES6 → ES5 with [babel](https://github.com/babel/babel).
-* [gulp-traceur](https://github.com/sindresorhus/gulp-traceur) - ES6 → ES5 using [Traceur](https://github.com/google/traceur-compiler).
-* [gulp-regenerator](https://github.com/sindresorhus/gulp-regenerator) - ES6 → ES5 with [Regenerator](https://github.com/facebook/regenerator).
-* [gulp-es6-transpiler](https://github.com/sindresorhus/gulp-es6-transpiler) - [Deprecated] ES6 → ES5 with [es6-transpiler](https://github.com/termi/es6-transpiler).
+* [gulp-babel](https://github.com/babel/gulp-babel) - ES6编译成ES5 通过 [babel](https://github.com/babel/babel).
+* [gulp-traceur](https://github.com/sindresorhus/gulp-traceur) - ES6编译成ES5 通过 [Traceur](https://github.com/google/traceur-compiler).
+* [gulp-regenerator](https://github.com/sindresorhus/gulp-regenerator) - ES6编译成ES5 通过 [Regenerator](https://github.com/facebook/regenerator).
+* [gulp-es6-transpiler](https://github.com/sindresorhus/gulp-es6-transpiler) - [过时的] ES6编译成ES5 通过 [es6-transpiler](https://github.com/termi/es6-transpiler).
 * [gulp-myth](https://github.com/sindresorhus/gulp-myth) - [Myth](https://github.com/segmentio/myth) - a polyfill for future versions of the CSS spec.
-* [gulp-cssnext](https://github.com/MoOx/gulp-cssnext) - [Deprecated] Use tomorrow's CSS syntax, today, using [cssnext](https://github.com/MoOx/postcss-cssnext).
+* [gulp-cssnext](https://github.com/MoOx/gulp-cssnext) - [过时的] 使用下一代的 CSS 规范通过 [cssnext](https://github.com/MoOx/postcss-cssnext).
 
 ### 合并
 * [gulp-concat](https://github.com/contra/gulp-concat) - 合并文件.
 
 ### 压缩
-* [gulp-clean-css](https://github.com/scniro/gulp-clean-css) - Minify CSS with [clean-css](https://github.com/jakubpawlowicz/clean-css).
-* [gulp-csso](https://github.com/ben-eb/gulp-csso) - Minify CSS with [CSSO](https://github.com/css/csso).
-* [gulp-uglify](https://github.com/terinjokes/gulp-uglify) - Minify JavaScript with [UglifyJS2](https://github.com/mishoo/UglifyJS2).
-* [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin) - Minify HTML with [html-minifier](https://github.com/kangax/html-minifier).
-* [gulp-minify-html](https://github.com/murphydanger/gulp-minify-html) - Minify HTML with
+* [gulp-clean-css](https://github.com/scniro/gulp-clean-css) - 压缩 CSS 通过 [clean-css](https://github.com/jakubpawlowicz/clean-css).
+* [gulp-csso](https://github.com/ben-eb/gulp-csso) - 压缩 CSS 通过 [CSSO](https://github.com/css/csso).
+* [gulp-uglify](https://github.com/terinjokes/gulp-uglify) - 压缩 JavaScript 通过 [UglifyJS2](https://github.com/mishoo/UglifyJS2).
+* [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin) - 压缩 HTML 通过 [html-minifier](https://github.com/kangax/html-minifier).
+* [gulp-minify-html](https://github.com/murphydanger/gulp-minify-html) - 压缩 HTML 通过
  [Minimize](https://github.com/Swaagie/minimize).
-* [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images with [imagemin](https://github.com/imagemin/imagemin).
-* [gulp-svgmin](https://github.com/ben-eb/gulp-svgmin) - Minify SVG files with gulp.
+* [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - 压缩 PNG, JPEG, GIF and SVG 图片 通过 [imagemin](https://github.com/imagemin/imagemin).
+* [gulp-svgmin](https://github.com/ben-eb/gulp-svgmin) - 通过Gulp压缩 SVG 文件
+
+### 优化
+* [gulp-uncss](https://github.com/ben-eb/gulp-uncss) - 移除未使用的CSS选择器通过 [UnCSS](https://github.com/giakki/uncss).
+* [gulp-css-base64](https://github.com/zckrs/gulp-css-base64) - 将CSS文件中所有的资源(those within a url() declaration)变成base64-encoded 数据的URI字符串
+* [gulp-svg2png](https://github.com/akoenig/gulp-svg2png) - 将SVGs转换成PNGs
+* [gulp-responsive](https://github.com/mahnunchik/gulp-responsive) - 生成不同尺寸的图片
+* [gulp-svgstore](https://github.com/w0rm/gulp-svgstore) -将svg files 合并成一个通过<symbol> 元素
+* [gulp-iconfont](https://github.com/nfroidure/gulp-iconfont) - 创建 icon fonts 从 一些 SVG icons
+
+### 资源注入
+* [gulp-useref](https://github.com/jonkemp/gulp-useref) - Parse build blocks in HTML files to replace references to non-optimized scripts or stylesheets.
+* [gulp-inject](https://github.com/klei/gulp-inject) - Transform each file to a string and inject each transformed string into placeholders in the target stream files.
+* [wiredep](https://github.com/taptapship/wiredep) - Wire Bower dependencies to your source code.
+
