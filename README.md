@@ -143,7 +143,7 @@
 * [gulp-iconfont](https://github.com/nfroidure/gulp-iconfont) - 创建 icon fonts 从 一些 SVG icons
 
 ### 资源注入
-* [gulp-useref](https://github.com/jonkemp/gulp-useref) - Parse build blocks in HTML files to replace references to non-optimized scripts or stylesheets.
-* [gulp-inject](https://github.com/klei/gulp-inject) - Transform each file to a string and inject each transformed string into placeholders in the target stream files.
-* [wiredep](https://github.com/taptapship/wiredep) - Wire Bower dependencies to your source code.
+* [gulp-useref](https://github.com/jonkemp/gulp-useref) - 解析HTML文件中特殊标签里面的script或style标签，合并成一个script或css文件，并替换。
+* [gulp-inject](https://github.com/klei/gulp-inject) - 将指定的css或js文件以标签的形式插入到HTML中的指定标志内。
+* [wiredep](https://github.com/taptapship/wiredep) - 将Bower依赖自动注入HTML文件中。
 
