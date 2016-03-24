@@ -136,11 +136,11 @@
 
 ### 优化
 * [gulp-uncss](https://github.com/ben-eb/gulp-uncss) - 移除未使用的CSS选择器通过 [UnCSS](https://github.com/giakki/uncss).
-* [gulp-css-base64](https://github.com/zckrs/gulp-css-base64) - 将CSS文件中所有的资源(those within a url() declaration)变成base64-encoded 数据的URI字符串
+* [gulp-css-base64](https://github.com/zckrs/gulp-css-base64) - 将CSS文件中所有的资源(有url()声明的)变成base64-encoded 数据的URI字符串
 * [gulp-svg2png](https://github.com/akoenig/gulp-svg2png) - 将SVGs转换成PNGs
 * [gulp-responsive](https://github.com/mahnunchik/gulp-responsive) - 生成不同尺寸的图片
 * [gulp-svgstore](https://github.com/w0rm/gulp-svgstore) -将svg files 合并成一个通过<symbol> 元素
-* [gulp-iconfont](https://github.com/nfroidure/gulp-iconfont) - 创建 icon fonts 从 一些 SVG icons
+* [gulp-iconfont](https://github.com/nfroidure/gulp-iconfont) - 通过SVG icons创建 icon fonts
 
 ### 资源注入
 * [gulp-useref](https://github.com/jonkemp/gulp-useref) - 解析HTML文件中特殊标签里面的script或style标签，合并成一个script或css文件，并替换。
