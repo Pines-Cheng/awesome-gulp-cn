@@ -162,13 +162,13 @@
 * [gulp-remark](https://github.com/denysdovhan/gulp-remark) - Gulp plugin for [remark]的Gulp插件(https://github.com/wooorm/remark) 通过插件处理markdown
 
 ### 代码校验
-* [gulp-csslint](https://www.npmjs.com/package/gulp-csslint) - 通过Automated linting of CSS with [CSSLint](https://github.com/CSSLint/csslint).
-* [gulp-htmlhint](https://github.com/bezoerb/gulp-htmlhint) - [HTMLHint](https://github.com/yaniswang/HTMLHint) wrapper to validate your HTML.
-* [gulp-jshint](https://github.com/spalger/gulp-jshint) - Detect errors and potential problems in JavaScript with [JSHint](https://github.com/jshint/jshint).
-* [gulp-jscs](https://github.com/jscs-dev/gulp-jscs) - Check JavaScript code style with [jscs](https://github.com/jscs-dev/node-jscs).
-* [gulp-coffeelint](https://github.com/janraasch/gulp-coffeelint) - A style checker that helps keep [CoffeeScript](https://github.com/jashkenas/coffeescript) code clean.
-* [gulp-tslint](https://github.com/panuhorsmalahti/gulp-tslint) - [TypeScript](https://github.com/Microsoft/TypeScript) linter plugin for gulp.
-* [gulp-eslint](https://github.com/adametry/gulp-eslint) - Identify and report on patterns found in ECMAScript/JavaScript code.
+* [gulp-csslint](https://www.npmjs.com/package/gulp-csslint) - 通过[CSSLint](https://github.com/CSSLint/csslint)自动校验CSS.
+* [gulp-htmlhint](https://github.com/bezoerb/gulp-htmlhint) - 通过[HTMLHint](https://github.com/yaniswang/HTMLHint)校验HTML.
+* [gulp-jshint](https://github.com/spalger/gulp-jshint) - 通过[JSHint](https://github.com/jshint/jshint)发现错误和潜在的问题.
+* [gulp-jscs](https://github.com/jscs-dev/gulp-jscs) - 通过[jscs](https://github.com/jscs-dev/node-jscs)检查JavaScript代码风格.
+* [gulp-coffeelint](https://github.com/janraasch/gulp-coffeelint) - 一种用来保证[CoffeeScript](https://github.com/jashkenas/coffeescript)代码风格统一的检查。
+* [gulp-tslint](https://github.com/panuhorsmalahti/gulp-tslint) - gulp的[TypeScript](https://github.com/Microsoft/TypeScript)代码校验插件.
+* [gulp-eslint](https://github.com/adametry/gulp-eslint) - ECMAScript/JavaScript代码校验.
 * [gulp-w3cjs](https://github.com/callumacrae/gulp-w3cjs) - Validate HTML with [w3cjs](https://github.com/thomasdavis/w3cjs).
 * [gulp-lesshint](https://github.com/lesshint/gulp-lesshint) - Lint less files with [lesshint](https://github.com/lesshint/lesshint).
 
