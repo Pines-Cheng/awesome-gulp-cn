@@ -183,25 +183,25 @@
 * [gulp-newer](https://github.com/tschaub/gulp-newer) - 只让新的源码通过.
 
 ### 流控制
-* [merge-stream](https://github.com/grncdr/merge-stream) - Merge multiple streams into one interleaved stream.
-* [streamqueue](https://github.com/nfroidure/StreamQueue) - Pipe queued streams progressively.
-* [run-sequence](https://github.com/OverZealous/run-sequence) - Run a series of dependent gulp tasks in order.
-* [gulp-if](https://github.com/robrich/gulp-if) - Conditionally run a task.
+* [merge-stream](https://github.com/grncdr/merge-stream) - 合并多个流到一个插入的流.
+* [streamqueue](https://github.com/nfroidure/StreamQueue) - 逐渐输入队列的流.
+* [run-sequence](https://github.com/OverZealous/run-sequence) - 按要求运行一些依赖的Gulptask.
+* [gulp-if](https://github.com/robrich/gulp-if) - 按照条件运行task.
 
-### Logging
-* [gulp-notify](https://github.com/mikaelbr/gulp-notify) - Notification plugin for gulp.
-* [gulp-size](https://github.com/sindresorhus/gulp-size) - Display the size of your project.
-* [gulp-debug](https://github.com/sindresorhus/gulp-debug) - Debug vinyl file streams to see what files are run through your gulp pipeline.
+### 日志
+* [gulp-notify](https://github.com/mikaelbr/gulp-notify) - Gulp的通知插件.
+* [gulp-size](https://github.com/sindresorhus/gulp-size) - 显示你的项目的大小.
+* [gulp-debug](https://github.com/sindresorhus/gulp-debug) - 通过调试文件流来观察那些文件通过了你的Gulp管道.
 
-### Testing
-* [gulp-mocha](https://github.com/sindresorhus/gulp-mocha) - Run [Mocha](https://github.com/mochajs/mocha) tests.
-* [gulp-jasmine](https://github.com/sindresorhus/gulp-jasmine) - Run [Jasmine 2](https://github.com/jasmine/jasmine) tests in Node.js.
-* [gulp-protractor](https://github.com/mllrsohn/gulp-protractor) - Gulp wrapper for [Protractor](https://github.com/angular/protractor) tests.
-* [gulp-coverage](https://github.com/dylanb/gulp-coverage) - Coverage reporting for Node.js that is independent of the test runner.
-* [gulp-karma](https://github.com/karma-runner/gulp-karma) - Karma test runner for gulp.
-* [gulp-ava](https://github.com/sindresorhus/gulp-ava)- Run [AVA](https://github.com/sindresorhus/ava) tests with gulp.
+### 测试
+* [gulp-mocha](https://github.com/sindresorhus/gulp-mocha) - 运行[Mocha](https://github.com/mochajs/mocha)测试用例.
+* [gulp-jasmine](https://github.com/sindresorhus/gulp-jasmine) - 在Node.js中运行[Jasmine 2](https://github.com/jasmine/jasmine) 测试用例.
+* [gulp-protractor](https://github.com/mllrsohn/gulp-protractor) - 为[Protractor](https://github.com/angular/protractor)测试用例包裹Gulp.
+* [gulp-coverage](https://github.com/dylanb/gulp-coverage) - 为Node.js覆盖相对于运行的测试运行独立的报告.
+* [gulp-karma](https://github.com/karma-runner/gulp-karma) - 通过Gulp运行Karma测试用例.
+* [gulp-ava](https://github.com/sindresorhus/gulp-ava)- 通过Gulp运行[AVA](https://github.com/sindresorhus/ava) 测试用例.
 
-### Miscellaneous Plugins
+### 其他插件
 * [gulp-util](https://github.com/gulpjs/gulp-util) - Set of useful utilities.
 * [gulp-plumber](https://github.com/floatdrop/gulp-plumber) - Prevent pipe breaking caused by errors.
 * [gulp-load-plugins](https://github.com/jackfranklin/gulp-load-plugins) - Automatically load in gulp plugins.
