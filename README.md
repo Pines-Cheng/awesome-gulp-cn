@@ -169,20 +169,20 @@
 * [gulp-coffeelint](https://github.com/janraasch/gulp-coffeelint) - 一种用来保证[CoffeeScript](https://github.com/jashkenas/coffeescript)代码风格统一的检查。
 * [gulp-tslint](https://github.com/panuhorsmalahti/gulp-tslint) - gulp的[TypeScript](https://github.com/Microsoft/TypeScript)代码校验插件.
 * [gulp-eslint](https://github.com/adametry/gulp-eslint) - ECMAScript/JavaScript代码校验.
-* [gulp-w3cjs](https://github.com/callumacrae/gulp-w3cjs) - Validate HTML with [w3cjs](https://github.com/thomasdavis/w3cjs).
-* [gulp-lesshint](https://github.com/lesshint/gulp-lesshint) - Lint less files with [lesshint](https://github.com/lesshint/lesshint).
+* [gulp-w3cjs](https://github.com/callumacrae/gulp-w3cjs) - 通过[w3cjs](https://github.com/thomasdavis/w3cjs)检验HTML.
+* [gulp-lesshint](https://github.com/lesshint/gulp-lesshint) - 通过[lesshint](https://github.com/lesshint/lesshint)校验LESS.
 
-### Live Reload
-* [browser-sync](https://github.com/BrowserSync/browser-sync) - Keep multiple browsers & devices in sync when building websites ([recipes](https://github.com/BrowserSync/gulp-browser-sync)).
-* [gulp-livereload](https://github.com/vohof/gulp-livereload) - Gulp plugin for livereload.
+### 实时加载
+* [browser-sync](https://github.com/BrowserSync/browser-sync) - 保证多个浏览器或设备网页同步显示 ([recipes](https://github.com/BrowserSync/gulp-browser-sync)).
+* [gulp-livereload](https://github.com/vohof/gulp-livereload) - Gulp的实时加载插件.
 
-### Caching
-* [gulp-changed](https://github.com/sindresorhus/gulp-changed) - Only pass through changed files.
-* [gulp-cached](https://github.com/contra/gulp-cached) - A simple in-memory file cache.
-* [gulp-remember](https://github.com/ahaurw01/gulp-remember) - Remember and recall files passed through it.
-* [gulp-newer](https://github.com/tschaub/gulp-newer) - Pass through newer source files only.
+### 缓存
+* [gulp-changed](https://github.com/sindresorhus/gulp-changed) - 仅让发生改变的文件通过.
+* [gulp-cached](https://github.com/contra/gulp-cached) - 一个简单的文件内存缓存.
+* [gulp-remember](https://github.com/ahaurw01/gulp-remember) - 记忆并回收通过了的文件.
+* [gulp-newer](https://github.com/tschaub/gulp-newer) - 只让新的源码通过.
 
-### Flow Control
+### 流控制
 * [merge-stream](https://github.com/grncdr/merge-stream) - Merge multiple streams into one interleaved stream.
 * [streamqueue](https://github.com/nfroidure/StreamQueue) - Pipe queued streams progressively.
 * [run-sequence](https://github.com/OverZealous/run-sequence) - Run a series of dependent gulp tasks in order.
