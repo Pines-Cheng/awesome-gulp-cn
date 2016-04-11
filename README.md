@@ -204,48 +204,48 @@
 * [gulp-ava](https://github.com/sindresorhus/gulp-ava)- 通过Gulp运行[AVA](https://github.com/sindresorhus/ava) 测试用例.
 
 ### 其他插件
-* [gulp-util](https://github.com/gulpjs/gulp-util) - Set of useful utilities.
-* [gulp-plumber](https://github.com/floatdrop/gulp-plumber) - Prevent pipe breaking caused by errors.
-* [gulp-load-plugins](https://github.com/jackfranklin/gulp-load-plugins) - Automatically load in gulp plugins.
-* [main-bower-files](https://github.com/ck86/main-bower-files) - Simplify build process setup by dynamically getting the library files.
-* [autoprefixer](https://github.com/postcss/autoprefixer) - Parse CSS and add vendor prefixes to rules by Can I Use.
-* [gulp-sourcemaps](https://github.com/floridoo/gulp-sourcemaps) - Provide source map support.
-* [gulp-replace](https://github.com/lazd/gulp-replace) - A string replace plugin for gulp.
-* [gulp-rename](https://github.com/hparra/gulp-rename) - Rename files easily.
-* [gulp-rev](https://github.com/sindresorhus/gulp-rev) - Static asset revisioning by appending content hash to filenames: unicorn.css → unicorn-d41d8cd98f.css.
-* [del](https://github.com/sindresorhus/del) - Delete files/folders using globs.
-* [gulp-exec](https://github.com/robrich/gulp-exec) - Run a shell command.
-* [gulp-strip-debug](https://github.com/sindresorhus/gulp-strip-debug) - Strip console, alert, and debugger statements from JavaScript code.
-* [gulp-cssimport](https://github.com/unlight/gulp-cssimport) - Parses a CSS file, finds imports, grabs the content of the linked file and replaces the import statement with it.
-* [gulp-inline-css](https://github.com/jonkemp/gulp-inline-css) - Inline your CSS properties into the style attribute in an HTML file.
-* [gulp-gh-pages](https://github.com/shinnn/gulp-gh-pages) - Publish contents to Github pages.
-* [gulp-ng-annotate](https://github.com/Kagami/gulp-ng-annotate) - Add AngularJS dependency injection annotations with [ng-annotate](https://github.com/olov/ng-annotate).
-* [gulp-bump](https://github.com/stevelacy/gulp-bump) - Bump any semvar JSON version.
-* [gulp-file-include](https://github.com/coderhaoxin/gulp-file-include) - Include files with gulp.
-* [gulp-zip](https://github.com/sindresorhus/gulp-zip) - ZIP compress files.
-* [gulp-git](https://github.com/stevelacy/gulp-git) - Run Git commands with gulp.
-* [gulp-filter](https://github.com/sindresorhus/gulp-filter) - Filter files in a vinyl stream using globbing.
-* [gulp-preprocess](https://github.com/jas/gulp-preprocess) - Preprocess files based on custom context or environment configuration.
+* [gulp-util](https://github.com/gulpjs/gulp-util) - 包含一系列有用插件.
+* [gulp-plumber](https://github.com/floatdrop/gulp-plumber) - 防止错误引起管道中断Prevent pipe breaking caused by errors.
+* [gulp-load-plugins](https://github.com/jackfranklin/gulp-load-plugins) - 自动加载Gulp插件.
+* [main-bower-files](https://github.com/ck86/main-bower-files) - 构建时自动获取bower库的文件.
+* [autoprefixer](https://github.com/postcss/autoprefixer) - 解析CSS且根据规则添加浏览器兼容性前缀.
+* [gulp-sourcemaps](https://github.com/floridoo/gulp-sourcemaps) - 提供source map支持.
+* [gulp-replace](https://github.com/lazd/gulp-replace) - Gulp的一个字符串替换插件.
+* [gulp-rename](https://github.com/hparra/gulp-rename) - 轻松重命名文件.
+* [gulp-rev](https://github.com/sindresorhus/gulp-rev) - 在静态文件名的后面添加hash值，如: unicorn.css → unicorn-d41d8cd98f.css.
+* [del](https://github.com/sindresorhus/del) - 使用globs删除文件/文件夹.
+* [gulp-exec](https://github.com/robrich/gulp-exec) - 运行一个shell命令.
+* [gulp-strip-debug](https://github.com/sindresorhus/gulp-strip-debug) - 除去javascript代码中的console,alert,debugger声明.
+* [gulp-cssimport](https://github.com/unlight/gulp-cssimport) - 解析CSS文件，找到imports,将连接文件替换成imort声明.
+* [gulp-inline-css](https://github.com/jonkemp/gulp-inline-css) - 将HTML中的css属性放到style标签中.
+* [gulp-gh-pages](https://github.com/shinnn/gulp-gh-pages) - 将内容发布到GiHub有页面.
+* [gulp-ng-annotate](https://github.com/Kagami/gulp-ng-annotate) - 通过[ng-annotate](https://github.com/olov/ng-annotate)添加Angular依赖注入.
+* [gulp-bump](https://github.com/stevelacy/gulp-bump) - 通过Gulp Bump任何semvar JSON版本.
+* [gulp-file-include](https://github.com/coderhaoxin/gulp-file-include) - 通过Gulp Include文件.
+* [gulp-zip](https://github.com/sindresorhus/gulp-zip) - 以ZIP格式压缩文件.
+* [gulp-git](https://github.com/stevelacy/gulp-git) - 通过Gulp运行git命令.
+* [gulp-filter](https://github.com/sindresorhus/gulp-filter) - 使用globbing过滤文件.
+* [gulp-preprocess](https://github.com/jas/gulp-preprocess) - 基于自定义内容或环境配置预处理文件.
 
-## Scaffolding
-### Boilerplates
-* [web-starter-kit](https://github.com/google/web-starter-kit) - Google Web Starter Kit.
-* [gulp-plugin-boilerplate](https://github.com/sindresorhus/gulp-plugin-boilerplate) - Boilerplate to kickstart creating gulp plugins.
-* [polymer-starter-kit](https://github.com/polymerelements/polymer-starter-kit) - A starting point for Polymer 1.0 apps.
-* [este](https://github.com/este/este) - The most complete React/Flux dev stack and starter kit for isomorphic functional web apps.
-* [mnml](https://github.com/mrmrs/mnml) - Minimal boilerplate to start a responsive HTML5/Sass project.
-* [kraken](https://github.com/cferdinandi/kraken) - A lightweight, mobile-first boilerplate for front-end web developers.
-* [angularjs-gulp-browserify-boilerplate](https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate) - Boilerplate using AngularJS, Sass, gulp, and Browserify.
-* [hapi-ninja](https://github.com/poeticninja/hapi-ninja) - A Node.js, Hapi, and Swig boilerplate.
-* [laravel-5-boilerplate](https://github.com/rappasoft/laravel-5-boilerplate) - A Laravel 5 boilerplate project.
-* [react-starterkit](https://github.com/wbkd/react-starterkit) - React starter kit that contains react-router, Reflux, jest, webpack, gulp and Stylus.
+## 脚手架
+### 模板
+* [web-starter-kit](https://github.com/google/web-starter-kit) - Google的Web Starter Kit.
+* [gulp-plugin-boilerplate](https://github.com/sindresorhus/gulp-plugin-boilerplate) - 创建Gulp插件的开始模板.
+* [polymer-starter-kit](https://github.com/polymerelements/polymer-starter-kit) -Polymer 1.0 应用的起点.
+* [este](https://github.com/este/este) - 同构的web应用最全面的React/Flux开发栈和开始模板.
+* [mnml](https://github.com/mrmrs/mnml) - 开发响应式HTML5/Sass项目的最小开始模板.
+* [kraken](https://github.com/cferdinandi/kraken) 一个轻量级的、移动端优先的前端开发开始模板.
+* [angularjs-gulp-browserify-boilerplate](https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate) - 一个使用AngularJS, Sass, gulp, 和 Browserify技术的开始模板.
+* [hapi-ninja](https://github.com/poeticninja/hapi-ninja) - 一个使用Node.js, Hapi, and Swig技术的开始模板.
+* [laravel-5-boilerplate](https://github.com/rappasoft/laravel-5-boilerplate) - 一个Laravel 5 开始模板.
+* [react-starterkit](https://github.com/wbkd/react-starterkit) - 包含react-router, Reflux, jest, webpack, gulp and Stylus的React开始模板.
 
-### Yeoman Generators
-* [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp) - A gulp generator for modern webapps.
-* [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular) - Yeoman generator for AngularJS with gulp.
-* [generator-react-gulp-browserify](https://github.com/randylien/generator-react-gulp-browserify) - A Yeoman Generator for React library. It includes gulp, Browserify, Browsersync and Bootstrap.
-* [generator-node-gulp](https://github.com/youngmountain/generator-node-gulp) - A Node.js module generator including gulp and Mocha.
-* [generator-gulp-bootstrap](https://github.com/niallobrien/generator-gulp-bootstrap) - Yeoman generator for Bootstrap, gulp & libsass.
+### Yeoman生成器
+* [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp) - A 一个流行的web应用的gulp生成器.
+* [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular) -  使用Gulp的AngularJS 的Yeoman生成器.
+* [generator-react-gulp-browserify](https://github.com/randylien/generator-react-gulp-browserify) - 一个React库的Yeoman生成器，包含gulp, Browserify, Browsersync and Bootstrap.
+* [generator-node-gulp](https://github.com/youngmountain/generator-node-gulp) - 一个Node.js模块生成器，包含gulp和 Mocha.
+* [generator-gulp-bootstrap](https://github.com/niallobrien/generator-gulp-bootstrap) - Bootstrap, gulp & libsass的Yeoman生成器.
 * [generator-angulpify](https://github.com/jgoux/generator-angulpify) - Yeoman generator involving AngularJS, gulp and Browserify.
 * [generator-ionic-gulp](https://github.com/tmaximini/generator-ionic-gulp) - A Yeoman generator for Ionic Projects with gulp.
 * [generator-gulp-plugin-boilerplate](https://github.com/sindresorhus/generator-gulp-plugin-boilerplate) - Scaffold out a [gulp plugin boilerplate](https://github.com/sindresorhus/gulp-plugin-boilerplate).
