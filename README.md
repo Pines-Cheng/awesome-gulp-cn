@@ -245,19 +245,18 @@
 * [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular) -  使用Gulp的AngularJS 的Yeoman生成器.
 * [generator-react-gulp-browserify](https://github.com/randylien/generator-react-gulp-browserify) - 一个React库的Yeoman生成器，包含gulp, Browserify, Browsersync and Bootstrap.
 * [generator-node-gulp](https://github.com/youngmountain/generator-node-gulp) - 一个Node.js模块生成器，包含gulp和 Mocha.
-* [generator-gulp-bootstrap](https://github.com/niallobrien/generator-gulp-bootstrap) - Bootstrap, gulp & libsass的Yeoman生成器.
-* [generator-angulpify](https://github.com/jgoux/generator-angulpify) - Yeoman generator involving AngularJS, gulp and Browserify.
-* [generator-ionic-gulp](https://github.com/tmaximini/generator-ionic-gulp) - A Yeoman generator for Ionic Projects with gulp.
-* [generator-gulp-plugin-boilerplate](https://github.com/sindresorhus/generator-gulp-plugin-boilerplate) - Scaffold out a [gulp plugin boilerplate](https://github.com/sindresorhus/gulp-plugin-boilerplate).
-* [generator-jekyllized](https://github.com/sondr3/generator-jekyllized) - Jekyll workflow with gulp, Sass, AutoPrefixer, asset optimization and cache busting and much more.
+* [generator-gulp-bootstrap](https://github.com/niallobrien/generator-gulp-bootstrap) - 一个包含Bootstrap, gulp 和libsass的Yeoman生成器·.
+* [generator-angulpify](https://github.com/jgoux/generator-angulpify) -  一个包含AngularJS, gulp和Browserify的Yeoman生成器.
+* [generator-ionic-gulp](https://github.com/tmaximini/generator-ionic-gulp) - 一个Ionic工厂的Yeoman生成器.
+* [generator-gulp-plugin-boilerplate](https://github.com/sindresorhus/generator-gulp-plugin-boilerplate) -一个输出 [gulp plugin boilerplate](https://github.com/sindresorhus/gulp-plugin-boilerplate)的脚手架.
+* [generator-jekyllized](https://github.com/sondr3/generator-jekyllized) - 一个包含gulp, Sass, AutoPrefixer,资源优化，缓存等的Jekyll工作流.
 
-## Miscellaneous
-* [elixir](https://github.com/laravel/elixir) - A clean, fluent API for defining basic gulp tasks for your Laravel applications.
-* [gulp-app](https://github.com/sindresorhus/gulp-app) - Gulp as an app (OS X).
-* [lmn-gulp-tasks](https://github.com/Lostmyname/lmn-gulp-tasks) - Example of gulp tasks unit testing.
-* [gulp-chef](http://gulp-cookery.github.io/gulp-chef/) - An elegant, intuitive way to reuse gulp tasks.
+## 其他
+* [elixir](https://github.com/laravel/elixir) - 一个为你的应用定义基本的gulp任务的干净、灵活的API.
+* [gulp-app](https://github.com/sindresorhus/gulp-app) - 将Gulp作为一个应用(OS X).
+* [lmn-gulp-tasks](https://github.com/Lostmyname/lmn-gulp-tasks) - gulp任务的单元测试示例.
+* [gulp-chef](http://gulp-cookery.github.io/gulp-chef/) - 一个优雅的、简单的重复时候gulp task的方法.
 
-## License
+## 证书
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [Philipp Alferov](https://github.com/alferov) has waived all copyright and related or neighboring rights to this work.
