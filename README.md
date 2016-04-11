@@ -1,13 +1,19 @@
-# awesome-gulp 中文版 
+# [awesome-gulp](https://github.com/alferov/awesome-gulp)中文版 
+
 > 一份[gulp](https://github.com/gulpjs/gulp)的资源，插件和使用实例清单， 致力于打造更好的前端工程构建流程。
 
 被老外的[awesome](https://github.com/sindresorhus/awesome) 清单刺激到，觉得有必要翻译一份，为国产的程序员们做点事情，本清单将保持实时更新同步。PS:进都进来了，就顺便看看其他的吧:
+
 - [awesome-nodejs-cn](https://github.com/Pines-Cheng/awesome-nodejs-cn)
 - [awesome-react-cn](https://github.com/Pines-Cheng/awesome-react-cn)
 - [awesome-npm-cn](https://github.com/Pines-Cheng/awesome-npm-cn)
 - [awesome-react-native-cn](https://github.com/Pines-Cheng/awesome-react-native-cn)
 
-如果想加入，那就加入吧。
+> 项目的Github地址：[awesome-react-cn](https://github.com/Pines-Cheng/awesome-gulp-cn),欢迎start。
+> 
+> 翻译得仓促，如有问题，请提[issues](https://github.com/Pines-Cheng/awesome-gulp-cn/issues)。
+> 
+> 如果想贡献，请[Pull Requests](https://github.com/Pines-Cheng/awesome-gulp-cn/pulls)。
 
 ## 目录
 - [资源](#资源)
