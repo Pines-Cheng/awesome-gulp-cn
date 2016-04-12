@@ -261,7 +261,7 @@
 * [elixir](https://github.com/laravel/elixir) - 一个为你的应用定义基本的gulp任务的干净、灵活的API.
 * [gulp-app](https://github.com/sindresorhus/gulp-app) - 将Gulp作为一个应用(OS X).
 * [lmn-gulp-tasks](https://github.com/Lostmyname/lmn-gulp-tasks) - gulp任务的单元测试示例.
-* [gulp-chef](http://gulp-cookery.github.io/gulp-chef/) - 一个优雅的、简单的重复时候gulp task的方法.
+* [gulp-chef](http://gulp-cookery.github.io/gulp-chef/) - 一个优雅的、简单的重复使用gulp task的方法.
 
 ## 证书
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
