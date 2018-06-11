@@ -9,7 +9,7 @@
 - [awesome-npm-cn](https://github.com/Pines-Cheng/awesome-npm-cn)
 - [awesome-react-native-cn](https://github.com/Pines-Cheng/awesome-react-native-cn)
 
-> 项目的Github地址：[awesome-react-cn](https://github.com/Pines-Cheng/awesome-gulp-cn),欢迎start。
+> 项目的Github地址：[awesome--cn](https://github.com/Pines-Cheng/awesome-gulp-cn),欢迎start。
 > 
 > 翻译得仓促，如有问题，请提[issues](https://github.com/Pines-Cheng/awesome-gulp-cn/issues)。
 > 
